@@ -71,12 +71,13 @@ img {
 }
 
 .container {
-  width: 100%;
-  margin: 25px 25px 0px;
+  width: 90%;
+  margin: 25px 5px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  padding-top: 25px;
 }
 
 .centralImg {
@@ -151,14 +152,8 @@ footer li a {
   padding: 0% 15%;
 }
 
-.inlineBlock {
-  display: inline-block;
-  padding: 25px;
-}
-
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -224,8 +219,8 @@ footer li a {
 }
 
 .slideshowImage {
-  width: 600px;
-  height: 394px;
+  width: 300px;
+  height: 172px;
 }
 
 .bulletList {
@@ -274,4 +269,13 @@ textarea {
   width: 250px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100px;
+}
+
+.inlineBlock {
+  width: 90%;
+  margin: 25px 25px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
