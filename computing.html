@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width:720px)">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Computing Courses| Cantor College</title>
+    <title>Computing Courses | Cantor College</title>
 </head>
 <header>
     <a href="index.html"><img src="images/logo.png"></a>
-    <nav>
+    <div style="padding: 20px;" , onclick="viewMenu()">
+        <div class="burgerMenu"></div>
+        <div class="burgerMenu"></div>
+        <div class="burgerMenu"></div>
+    </div>
+    <nav id="desktopNav">
         <ul>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="howtofindus.html">How to Find Us</a></li>
@@ -23,11 +28,24 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
+    <script src="scripts/navbar.js"></script>
 </header>
 
 <body>
-    <div style="padding-top: 75px">
-        <img src="images/cantor-header.jpg" , style="width: 100%; border-radius: 0px;", alt="">
+    <div style="padding-top: 75px"></div>
+    <div id="navMenu" style="display: none;">
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="howtofindus.html">How to Find Us</a></li>
+            <li><a href="computing.html">Computing Courses</a></li>
+            <li><a href="design.html">Design Courses</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="resources.html">Learning Resources</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+        <img src="images/cantor-header.jpg" , id="headerImg" , alt="">
         <h1 style="margin-top: 50px;">Computing Courses</h1>
     </div>
     <div class="container", style="margin:auto">
