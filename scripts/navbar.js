@@ -9,3 +9,15 @@
         }
     }
 })()
+
+function viewMenu(){
+    console.log("hello")
+    var burgerMenus = document.getElementsByClassName("burgerMenu");
+    for(var i = 0; i < burgerMenus.length; i++){
+
+        burgerMenus[i].classList.toggle("menuOpen");
+    }
+    var navMenu = document.getElementById("navMenu");
+    if (navMenu.style.display == "none"){navMenu.style.display = "block"}
+    else {navMenu.style.display = "none"}
+}

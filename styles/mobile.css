@@ -11,12 +11,14 @@ header {
   background-color: #523e0f;
   height: 75px;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
 }
 
 header img {
   width: height;
   height: 90%;
-  display: flex;
+  padding: 5px;
 }
 
 header ul {
@@ -28,6 +30,31 @@ header ul {
 #headerImg {
   width: 100%;
   border-radius: 0px;
+}
+
+.burgerMenu {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 20px;
+}
+
+.menuOpen {
+  background-color: #f2a904;
+}
+
+#navMenu {
+  width: 100%;
+  background-color: white;
+}
+
+#navMenu li {
+  list-style: none;
+}
+
+#navMenu li a {
+  color: #523e0f;
+  text-decoration: none;
 }
 
 .currentPage,
